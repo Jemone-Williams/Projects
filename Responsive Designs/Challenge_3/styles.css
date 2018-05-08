@@ -1,0 +1,108 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  /* opacity: 0.9; */
+  left: -200px;
+  transition: all 500ms linear;
+}
+
+#sidebar.active{
+  left: 0px;
+}
+
+#sidebar ul li {
+  /* color:rgba(230,230,230,0.9); */
+  color: grey;
+/* font-size-adjust: sans-serif;
+font-weight: bold;
+font-size: 25px; */
+  list-style: none;
+  padding: 15px 10px;
+  /* border-bottom: 1px solid rgba(100, 100, 100, 0.3); */
+}
+
+a{
+  text-decoration: none;
+}
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: red;
+  margin: 3px 0px;
+}
+
+.image{
+margin-left: 20px;
+/* display: inline; */
+}
+
+
+body{
+  /* background-color: #222; */
+  background-image: url("captain-america-shield-3840x2400.jpg");
+}
+
+
+
+#sign {
+  width: 7%;
+  height: 8%;
+  background-color: red;
+  border: none;
+  border-radius: 35px;
+  justify-content: flex-end;
+  margin-left: 93%;
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 370%;
+  font-family: 'Poiret One', cursive;
+}
+
+h2 {
+  color: white;
+  font-size: 360%;
+}
+
+h3 {
+  color: white;
+  font-size: 150%;
+}
+
+#join {
+  width: 50%;
+  background-color: #e10813;
+  height: 30px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+.wrapper{
+  margin-left: 10px;
+}
+
+footer p {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
